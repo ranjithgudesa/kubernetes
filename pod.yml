@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: test-deployment-app
+  namespace: dev
+  labels:
+    app: test-deployment-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: test-deployment-app
+  template:
+    metadata:
+      labels:
+        app: test-deployment-app
+    containers:
+      - image: kammana/nodeapp:v1
+        name: test-deployment-app
+        ports:
+          - containerPort: 8080
+
