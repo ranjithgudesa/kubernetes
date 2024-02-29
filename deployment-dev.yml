@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: eks-dev
+  name: demo1
   namespace: dev
   labels:
     app: eks-sample-linux-app
