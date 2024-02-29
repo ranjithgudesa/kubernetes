@@ -27,7 +27,7 @@ spec:
                 - arm64
       containers:
       - name: dev
-        image: kammana/nodeapp:v1
+        image: kammana/nodeapp:v2
         ports:
         - name: http
           containerPort: 8080
