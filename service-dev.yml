@@ -6,7 +6,7 @@ metadata:
   
 spec:
   selector:
-    app.kubernetes.io/name: red
+    app.kubernetes.io/name: eks-sample-linux-deployment
   ports:
     - protocol: TCP
       port: 80
