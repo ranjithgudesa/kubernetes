@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: eks-dev
-  namespace: qa
+  namespace: dev
   labels:
     app: eks-sample-linux-app
 spec:
