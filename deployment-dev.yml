@@ -30,7 +30,7 @@ spec:
         image: kammana/nodeapp:v1
         ports:
         - name: http
-          containerPort: 8080
+          containerPort: 8443
         imagePullPolicy: IfNotPresent
       nodeSelector:
         kubernetes.io/os: linux
