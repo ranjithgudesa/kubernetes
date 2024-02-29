@@ -4,7 +4,7 @@ metadata:
   name: demo1
   namespace: dev
   labels:
-    app: demo1
+    app: eks-sample-linux-app
 spec:
   selector:
     app.kubernetes.io/name: demo1
